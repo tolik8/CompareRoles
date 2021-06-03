@@ -1,0 +1,23 @@
+object Form2: TForm2
+  Left = 425
+  Height = 490
+  Top = 213
+  Width = 713
+  Caption = 'Результат порівняння ролей'
+  ClientHeight = 490
+  ClientWidth = 713
+  Position = poScreenCenter
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 16
+    Height = 458
+    Top = 16
+    Width = 680
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Font.Height = -19
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+end
